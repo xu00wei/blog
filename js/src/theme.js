@@ -38,5 +38,11 @@
     }
   };
 
+  Theme.dropHeader = {
+    register: function () {
+      var $dropHeader = $('#drop-header');
+      $dropHeader.click()
+    }
+  };
   this.Theme = Theme;
 }.call(this));
